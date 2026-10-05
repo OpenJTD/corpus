@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "input_id": "named-segment-style-tail",
+  "input_sha256": "e4cd90918bca5d75f198d7bcda476a677a5bf2f39e4dad3934199a379de2d311",
+  "surface": "/DocumentText logical stream fragment",
+  "producer": {
+    "implementation": "rjtd regression expectation",
+    "version": "d5c7f337e55ce4411bf4130a2352d0d3942bab87"
+  },
+  "evidence": "synthetic implementation regression; not native authoring or independent reproduction",
+  "plain_text": "A",
+  "observations": [
+    {
+      "kind": "text",
+      "byte_start": 34,
+      "byte_end": 36,
+      "text": "A"
+    }
+  ]
+}

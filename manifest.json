@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "items": [
+    {
+      "id": "marker-hello",
+      "filename": "marker-hello.bin",
+      "path": "samples/synthetic/marker-hello.bin",
+      "sha256": "3af1a19d8d7f4c5ed74386204d87bee956e9263420811c3e9139bacf9c42abe7",
+      "size_bytes": 22,
+      "source_url": "https://github.com/OpenJTD/rjtd/blob/d5c7f337e55ce4411bf4130a2352d0d3942bab87/rjtd/crates/rjtd-core/src/document_text.rs",
+      "creator": "KimEJ (Codex-assisted)",
+      "rights_holder": "KimEJ",
+      "license": "Apache-2.0",
+      "provenance": {
+        "created_on": "2026-10-05",
+        "method": "Generated from literal bytes and self-authored Hello/A/B strings; no external document bytes.",
+        "recipe": "SsmgV.01; 001f marker; UTF-16BE Hello plus LF."
+      },
+      "sharing_basis": "Self-authored synthetic validation input submitted under Apache-2.0.",
+      "distribution": "public",
+      "allowed_collaborators": [],
+      "derived_output_permission": "Public redistribution under Apache-2.0 for this self-authored fixture and its expected output.",
+      "kind": "synthetic-stream",
+      "native_authored": false,
+      "features": [
+        "UTF-16BE text",
+        "marker recovery"
+      ],
+      "expected_observations": "expected/marker-hello.json"
+    },
+    {
+      "id": "named-segment-style-tail",
+      "filename": "named-segment-style-tail.bin",
+      "path": "samples/synthetic/named-segment-style-tail.bin",
+      "sha256": "e4cd90918bca5d75f198d7bcda476a677a5bf2f39e4dad3934199a379de2d311",
+      "size_bytes": 40,
+      "source_url": "https://github.com/OpenJTD/rjtd/blob/d5c7f337e55ce4411bf4130a2352d0d3942bab87/rjtd/crates/rjtd-core/src/document_text.rs",
+      "creator": "KimEJ (Codex-assisted)",
+      "rights_holder": "KimEJ",
+      "license": "Apache-2.0",
+      "provenance": {
+        "created_on": "2026-10-05",
+        "method": "Generated from literal bytes and self-authored Hello/A/B strings; no external document bytes.",
+        "recipe": "Named TextV.01 with declared content of 2 UTF-16 units (001f 0041); trailing 001f 0042 is outside the content boundary."
+      },
+      "sharing_basis": "Self-authored synthetic validation input submitted under Apache-2.0.",
+      "distribution": "public",
+      "allowed_collaborators": [],
+      "derived_output_permission": "Public redistribution under Apache-2.0 for this self-authored fixture and its expected output.",
+      "kind": "synthetic-stream",
+      "native_authored": false,
+      "features": [
+        "UTF-16BE text",
+        "declared text boundary"
+      ],
+      "expected_observations": "expected/named-segment-style-tail.json"
+    }
+  ]
+}

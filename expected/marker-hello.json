@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "input_id": "marker-hello",
+  "input_sha256": "3af1a19d8d7f4c5ed74386204d87bee956e9263420811c3e9139bacf9c42abe7",
+  "surface": "/DocumentText logical stream fragment",
+  "producer": {
+    "implementation": "rjtd regression expectation",
+    "version": "d5c7f337e55ce4411bf4130a2352d0d3942bab87"
+  },
+  "evidence": "synthetic implementation regression; not native authoring or independent reproduction",
+  "plain_text": "Hello\n",
+  "observations": [
+    {
+      "kind": "text",
+      "byte_start": 10,
+      "byte_end": 22,
+      "text": "Hello\n"
+    }
+  ]
+}
