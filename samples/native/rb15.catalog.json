@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "id": "openjtd-ruby-r15",
+  "samples": [
+    {
+      "id": "rb15-fit-plain",
+      "title": "対照: ルビなし",
+      "purpose": "同じ本文の対照。ルビを付けない。文書の設定は新規文書のままにする。",
+      "feature": "document-style-source",
+      "expected": [
+        {
+          "property": "documentStyle.source",
+          "value": "new-document"
+        }
+      ],
+      "document": {
+        "kind": "text",
+        "text": "あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆ漢字よらりるれろわあいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめも",
+        "styleSource": "new-document"
+      }
+    },
+    {
+      "id": "rb15-half",
+      "title": "読み 5 字のルビ",
+      "purpose": "本文の 38・39 字目の 2 字に、読み 5 字のルビを 1 つ付ける。ルビの書式（サイズ・揃え・位置・距離）は指定しない。文書の設定は新規文書のままにする。",
+      "feature": "ruby",
+      "expected": [
+        {
+          "property": "documentStyle.source",
+          "value": "new-document"
+        },
+        {
+          "property": "range[37:39].ruby.reading",
+          "value": "よみがなを"
+        }
+      ],
+      "document": {
+        "kind": "text",
+        "text": "あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆ漢字よらりるれろわあいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめも",
+        "annotations": [
+          {
+            "capability": "ruby",
+            "range": {
+              "start": 37,
+              "end": 39,
+              "text": "漢字"
+            },
+            "parameters": {
+              "reading": "よみがなを"
+            }
+          }
+        ],
+        "styleSource": "new-document"
+      }
+    },
+    {
+      "id": "rb15-over",
+      "title": "読み 7 字のルビ",
+      "purpose": "本文の 38・39 字目の 2 字に、読み 7 字のルビを 1 つ付ける。ルビの書式（サイズ・揃え・位置・距離）は指定しない。文書の設定は新規文書のままにする。",
+      "feature": "ruby",
+      "expected": [
+        {
+          "property": "documentStyle.source",
+          "value": "new-document"
+        },
+        {
+          "property": "range[37:39].ruby.reading",
+          "value": "よみがなをなが"
+        }
+      ],
+      "document": {
+        "kind": "text",
+        "text": "あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆ漢字よらりるれろわあいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめも",
+        "annotations": [
+          {
+            "capability": "ruby",
+            "range": {
+              "start": 37,
+              "end": 39,
+              "text": "漢字"
+            },
+            "parameters": {
+              "reading": "よみがなをなが"
+            }
+          }
+        ],
+        "styleSource": "new-document"
+      }
+    }
+  ]
+}

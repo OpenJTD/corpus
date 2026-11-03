@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "input_id": "rb15-fit-plain",
+  "input_sha256": "df6e322aa3c4128815c1c06a6f79d8b026bb97a1f7bd29f9cd92acd6f1993786",
+  "surface": "/DocumentText stream of the native JTD (CFB); byte ranges are relative to that stream",
+  "surface_stream": "/DocumentText",
+  "surface_sha256": "ea800579dbbbee127cf9d45a72b9576a5e3c9482eb622eeeadd4772c4100c129",
+  "producer": {
+    "implementation": "OpenJTD/rjtd: spans from rjtd text-map; text and raw read from the stream bytes and cross-checked with rjtd text-tokens; plain_text from rjtd cat",
+    "version": "3a3ddee66b21f4e3e088a13dbdfd196fdf511ad1"
+  },
+  "evidence": "native authoring by Ichitaro 2026; the control of a set whose other items add one ruby annotation. The observations record rjtd behaviour on these bytes, not an independent agreement.",
+  "plain_text": "あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆ漢字よらりるれろわあいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめも",
+  "observations": [
+    {
+      "kind": "text",
+      "byte_start": 32,
+      "byte_end": 194,
+      "text": "あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆ漢字よらりるれろわあいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめも"
+    }
+  ]
+}

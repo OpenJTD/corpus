@@ -54,6 +54,226 @@
         "declared text boundary"
       ],
       "expected_observations": "expected/named-segment-style-tail.json"
+    },
+    {
+      "id": "rb15-fit-plain",
+      "filename": "rb15-fit-plain.jtd",
+      "path": "samples/native/rb15-fit-plain.jtd",
+      "sha256": "df6e322aa3c4128815c1c06a6f79d8b026bb97a1f7bd29f9cd92acd6f1993786",
+      "size_bytes": 19456,
+      "source_url": null,
+      "creator": "SH1R4S4G1 (Claude-assisted)",
+      "rights_holder": "SH1R4S4G1",
+      "license": "Apache-2.0",
+      "provenance": {
+        "created_on": "2026-10-16",
+        "method": "Generated on Windows by Ichitaro 2026 (taro36.exe, file version 1.0, SHA-256 dc89fd38216deb34f5f458e1649f11623e7e3691d19b1f128d16742f2b13e90c) driven through its macro interface by the contributor's sample generator openjtd-specimens (https://github.com/SH1R4S4G1/openjtd-specimens), pre-release build 0.15.1 (development commit 1c78465ec9adefc7c85fbf496a8357c080bdc511, not in the public repository, whose history starts at 0.21.1) from Sample Catalog openjtd-ruby-r15 (SHA-256 042065e144ae6b0f102718d7331000c867a27c6f282251275fe23467fdcd2d4a); no manual editing. The generator's check for this sample kind passed before saving and after reopening (reasonCode VERIFIED: the body read back as one paragraph, and for ruby every body character's captured attributes and ruby getters; not a check of every stored value). The generator is public; the three samples are published as samples/native/rb15.catalog.json, which validates against release 0.22.1 (tag v0.22.1, Node.js 22, checked on macOS); the files have not been regenerated with the public release, and a rerun by the contributor would not be an independent reproduction.",
+        "recipe": {
+          "catalog_id": "openjtd-ruby-r15",
+          "sample_id": "rb15-fit-plain",
+          "catalog_file": "samples/native/rb15.catalog.json",
+          "catalog_file_sha256": "2bb1df0a7f2db1d91ef94b2cd11f036543258d915493dabcae09f321459956ad",
+          "document": {
+            "kind": "text",
+            "text": "あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆ漢字よらりるれろわあいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめも",
+            "styleSource": "new-document"
+          },
+          "note": "document is the catalog sample the generator executed: the body text, the ruby annotation (0-based, end-exclusive UTF-16 offsets) and styleSource \"new-document\". catalog_file holds the three published samples with the same id, feature, expected and document as the recorded 18-sample catalog (whose SHA-256 is in method); their title and purpose are rewritten for publication, so the two files differ in SHA-256"
+        },
+        "changed_variable": "none: the control of this set (no ruby)",
+        "notes": "The summary streams (/\\x05SummaryInformation, /\\x04JSRV_SummaryInformation) are as Ichitaro saved them: author fields \"user\", the company field (会社名) \"UNITCOM PC\", save times, and as template path the generator's working copy of the new document it opened (...\\runs\\<run id>\\samples\\baseline\\document.jtd). In an earlier run (generator 0.12.0, 2026-10-15) with the same body and ruby operation but explicit document settings instead of the new-document settings, /DocumentText was byte-identical to this file's; that run is not included."
+      },
+      "sharing_basis": "Self-authored native document: the contributor (with Claude's assistance) wrote the body text and the requested settings for this experiment and generated the file with their own licensed Ichitaro installation; no third-party text or images. The container structure (style, template and macro streams, the product string) is what Ichitaro writes when it saves a document. The reference PDF is Ichitaro's output and contains a glyph subset of a third party's font (see reference_pdf).",
+      "distribution": "public",
+      "allowed_collaborators": [],
+      "derived_output_permission": "Public redistribution under Apache-2.0 for this document, its expected output, the published Sample Catalog (recipe.catalog_file) and its reference PDF, except the font subset embedded in the PDF (YuMincho-Regular Version 1.92: Microsoft supplied font, © 2019 JIYUKOBO Ltd.; embedded by Ichitaro as a subset under its editable embedding permission (fsType 0x0008), as its licence text permits). That glyph subset stays under its provider's terms and Apache-2.0 does not extend to it; no complete or installable font is distributed.",
+      "kind": "native-document",
+      "native_authored": true,
+      "features": [
+        "UTF-16BE text",
+        "document settings left as Ichitaro's new document (the generator's styleSource \"new-document\")",
+        "no ruby (control)"
+      ],
+      "expected_observations": "expected/rb15-fit-plain.json",
+      "reference_pdf": {
+        "path": "samples/native/rb15-fit-plain.pdf",
+        "license": "Apache-2.0, except the embedded font subset (see embedded_fonts), which keeps its provider's terms",
+        "sha256": "95e6e0d1182ec317ba42e24768f1ef550dd32d352a367740c65994d337e9f813",
+        "size_bytes": 40712,
+        "method": "Saved by Ichitaro 2026 as PDF (SaveDocument format 23) from the saved JTD in a separate macro run of the generator; the JTD was closed without saving and its SHA-256 was unchanged",
+        "document_information": {
+          "Author": "user",
+          "CreationDate": "D:20261016221850+09'00'",
+          "ModDate": "D:20261016221850+09'00'",
+          "Producer": "一太郎"
+        },
+        "embedded_fonts": [
+          {
+            "postscript_name": "YuMincho-Regular",
+            "version": "Version 1.92",
+            "fsType": "0x0008",
+            "embedding": "TrueType subset (53 of 23398 glyphs with outlines)",
+            "terms": "Microsoft supplied font, © 2019 JIYUKOBO Ltd.; embedded by Ichitaro as a subset under its editable embedding permission (fsType 0x0008), as its licence text permits"
+          }
+        ],
+        "note": "Not an expected observation: no layout value of the PDF is asserted here."
+      }
+    },
+    {
+      "id": "rb15-half",
+      "filename": "rb15-half.jtd",
+      "path": "samples/native/rb15-half.jtd",
+      "sha256": "c81ce81d756bd645c9c989c609782891961106c021ddb9266a016ca45da733d0",
+      "size_bytes": 19456,
+      "source_url": null,
+      "creator": "SH1R4S4G1 (Claude-assisted)",
+      "rights_holder": "SH1R4S4G1",
+      "license": "Apache-2.0",
+      "provenance": {
+        "created_on": "2026-10-16",
+        "method": "Generated on Windows by Ichitaro 2026 (taro36.exe, file version 1.0, SHA-256 dc89fd38216deb34f5f458e1649f11623e7e3691d19b1f128d16742f2b13e90c) driven through its macro interface by the contributor's sample generator openjtd-specimens (https://github.com/SH1R4S4G1/openjtd-specimens), pre-release build 0.15.1 (development commit 1c78465ec9adefc7c85fbf496a8357c080bdc511, not in the public repository, whose history starts at 0.21.1) from Sample Catalog openjtd-ruby-r15 (SHA-256 042065e144ae6b0f102718d7331000c867a27c6f282251275fe23467fdcd2d4a); no manual editing. The generator's check for this sample kind passed before saving and after reopening (reasonCode VERIFIED: the body read back as one paragraph, and for ruby every body character's captured attributes and ruby getters; not a check of every stored value). The generator is public; the three samples are published as samples/native/rb15.catalog.json, which validates against release 0.22.1 (tag v0.22.1, Node.js 22, checked on macOS); the files have not been regenerated with the public release, and a rerun by the contributor would not be an independent reproduction.",
+        "recipe": {
+          "catalog_id": "openjtd-ruby-r15",
+          "sample_id": "rb15-half",
+          "catalog_file": "samples/native/rb15.catalog.json",
+          "catalog_file_sha256": "2bb1df0a7f2db1d91ef94b2cd11f036543258d915493dabcae09f321459956ad",
+          "document": {
+            "kind": "text",
+            "text": "あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆ漢字よらりるれろわあいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめも",
+            "annotations": [
+              {
+                "capability": "ruby",
+                "range": {
+                  "start": 37,
+                  "end": 39,
+                  "text": "漢字"
+                },
+                "parameters": {
+                  "reading": "よみがなを"
+                }
+              }
+            ],
+            "styleSource": "new-document"
+          },
+          "note": "document is the catalog sample the generator executed: the body text, the ruby annotation (0-based, end-exclusive UTF-16 offsets) and styleSource \"new-document\". catalog_file holds the three published samples with the same id, feature, expected and document as the recorded 18-sample catalog (whose SHA-256 is in method); their title and purpose are rewritten for publication, so the two files differ in SHA-256"
+        },
+        "changed_variable": "one ruby annotation on the 2 characters at 0-based offsets [37, 39) of the body (漢字), reading よみがなを (5 characters); the recipe is otherwise that of rb15-fit-plain",
+        "notes": "The summary streams (/\\x05SummaryInformation, /\\x04JSRV_SummaryInformation) are as Ichitaro saved them: author fields \"user\", the company field (会社名) \"UNITCOM PC\", save times, and as template path the generator's working copy of the new document it opened (...\\runs\\<run id>\\samples\\baseline\\document.jtd). In an earlier run (generator 0.12.0, 2026-10-15) with the same body and ruby operation but explicit document settings instead of the new-document settings, /DocumentText was byte-identical to this file's; that run is not included."
+      },
+      "sharing_basis": "Self-authored native document: the contributor (with Claude's assistance) wrote the body text and the requested settings for this experiment and generated the file with their own licensed Ichitaro installation; no third-party text or images. The container structure (style, template and macro streams, the product string) is what Ichitaro writes when it saves a document. The reference PDF is Ichitaro's output and contains a glyph subset of a third party's font (see reference_pdf).",
+      "distribution": "public",
+      "allowed_collaborators": [],
+      "derived_output_permission": "Public redistribution under Apache-2.0 for this document, its expected output, the published Sample Catalog (recipe.catalog_file) and its reference PDF, except the font subset embedded in the PDF (YuMincho-Regular Version 1.92: Microsoft supplied font, © 2019 JIYUKOBO Ltd.; embedded by Ichitaro as a subset under its editable embedding permission (fsType 0x0008), as its licence text permits). That glyph subset stays under its provider's terms and Apache-2.0 does not extend to it; no complete or installable font is distributed.",
+      "kind": "native-document",
+      "native_authored": true,
+      "features": [
+        "UTF-16BE text",
+        "document settings left as Ichitaro's new document (the generator's styleSource \"new-document\")",
+        "ruby on 2 base characters, reading of 5 characters",
+        "ruby requested with the generator's defaults (no size, alignment, position or distance given)"
+      ],
+      "expected_observations": "expected/rb15-half.json",
+      "reference_pdf": {
+        "path": "samples/native/rb15-half.pdf",
+        "license": "Apache-2.0, except the embedded font subset (see embedded_fonts), which keeps its provider's terms",
+        "sha256": "0856fd5ed8b07d58535a4bfeaf9c814068341016e06c95f3ad7a17d1905ae9b7",
+        "size_bytes": 41322,
+        "method": "Saved by Ichitaro 2026 as PDF (SaveDocument format 23) from the saved JTD in a separate macro run of the generator; the JTD was closed without saving and its SHA-256 was unchanged",
+        "document_information": {
+          "Author": "user",
+          "CreationDate": "D:20261016221900+09'00'",
+          "ModDate": "D:20261016221900+09'00'",
+          "Producer": "一太郎"
+        },
+        "embedded_fonts": [
+          {
+            "postscript_name": "YuMincho-Regular",
+            "version": "Version 1.92",
+            "fsType": "0x0008",
+            "embedding": "TrueType subset (55 of 23398 glyphs with outlines)",
+            "terms": "Microsoft supplied font, © 2019 JIYUKOBO Ltd.; embedded by Ichitaro as a subset under its editable embedding permission (fsType 0x0008), as its licence text permits"
+          }
+        ],
+        "note": "Not an expected observation: no layout value of the PDF is asserted here."
+      }
+    },
+    {
+      "id": "rb15-over",
+      "filename": "rb15-over.jtd",
+      "path": "samples/native/rb15-over.jtd",
+      "sha256": "6c671d88b9ba0f714e05ffd5dfb00e86da9eb5aa2f8f2a83829ae20e71935fc9",
+      "size_bytes": 19456,
+      "source_url": null,
+      "creator": "SH1R4S4G1 (Claude-assisted)",
+      "rights_holder": "SH1R4S4G1",
+      "license": "Apache-2.0",
+      "provenance": {
+        "created_on": "2026-10-16",
+        "method": "Generated on Windows by Ichitaro 2026 (taro36.exe, file version 1.0, SHA-256 dc89fd38216deb34f5f458e1649f11623e7e3691d19b1f128d16742f2b13e90c) driven through its macro interface by the contributor's sample generator openjtd-specimens (https://github.com/SH1R4S4G1/openjtd-specimens), pre-release build 0.15.1 (development commit 1c78465ec9adefc7c85fbf496a8357c080bdc511, not in the public repository, whose history starts at 0.21.1) from Sample Catalog openjtd-ruby-r15 (SHA-256 042065e144ae6b0f102718d7331000c867a27c6f282251275fe23467fdcd2d4a); no manual editing. The generator's check for this sample kind passed before saving and after reopening (reasonCode VERIFIED: the body read back as one paragraph, and for ruby every body character's captured attributes and ruby getters; not a check of every stored value). The generator is public; the three samples are published as samples/native/rb15.catalog.json, which validates against release 0.22.1 (tag v0.22.1, Node.js 22, checked on macOS); the files have not been regenerated with the public release, and a rerun by the contributor would not be an independent reproduction.",
+        "recipe": {
+          "catalog_id": "openjtd-ruby-r15",
+          "sample_id": "rb15-over",
+          "catalog_file": "samples/native/rb15.catalog.json",
+          "catalog_file_sha256": "2bb1df0a7f2db1d91ef94b2cd11f036543258d915493dabcae09f321459956ad",
+          "document": {
+            "kind": "text",
+            "text": "あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆ漢字よらりるれろわあいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめも",
+            "annotations": [
+              {
+                "capability": "ruby",
+                "range": {
+                  "start": 37,
+                  "end": 39,
+                  "text": "漢字"
+                },
+                "parameters": {
+                  "reading": "よみがなをなが"
+                }
+              }
+            ],
+            "styleSource": "new-document"
+          },
+          "note": "document is the catalog sample the generator executed: the body text, the ruby annotation (0-based, end-exclusive UTF-16 offsets) and styleSource \"new-document\". catalog_file holds the three published samples with the same id, feature, expected and document as the recorded 18-sample catalog (whose SHA-256 is in method); their title and purpose are rewritten for publication, so the two files differ in SHA-256"
+        },
+        "changed_variable": "one ruby annotation on the 2 characters at 0-based offsets [37, 39) of the body (漢字), reading よみがなをなが (7 characters); the recipe is otherwise that of rb15-fit-plain",
+        "notes": "The summary streams (/\\x05SummaryInformation, /\\x04JSRV_SummaryInformation) are as Ichitaro saved them: author fields \"user\", the company field (会社名) \"UNITCOM PC\", save times, and as template path the generator's working copy of the new document it opened (...\\runs\\<run id>\\samples\\baseline\\document.jtd). In an earlier run (generator 0.12.0, 2026-10-15) with the same body and ruby operation but explicit document settings instead of the new-document settings, /DocumentText was byte-identical to this file's; that run is not included."
+      },
+      "sharing_basis": "Self-authored native document: the contributor (with Claude's assistance) wrote the body text and the requested settings for this experiment and generated the file with their own licensed Ichitaro installation; no third-party text or images. The container structure (style, template and macro streams, the product string) is what Ichitaro writes when it saves a document. The reference PDF is Ichitaro's output and contains a glyph subset of a third party's font (see reference_pdf).",
+      "distribution": "public",
+      "allowed_collaborators": [],
+      "derived_output_permission": "Public redistribution under Apache-2.0 for this document, its expected output, the published Sample Catalog (recipe.catalog_file) and its reference PDF, except the font subset embedded in the PDF (YuMincho-Regular Version 1.92: Microsoft supplied font, © 2019 JIYUKOBO Ltd.; embedded by Ichitaro as a subset under its editable embedding permission (fsType 0x0008), as its licence text permits). That glyph subset stays under its provider's terms and Apache-2.0 does not extend to it; no complete or installable font is distributed.",
+      "kind": "native-document",
+      "native_authored": true,
+      "features": [
+        "UTF-16BE text",
+        "document settings left as Ichitaro's new document (the generator's styleSource \"new-document\")",
+        "ruby on 2 base characters, reading of 7 characters",
+        "ruby requested with the generator's defaults (no size, alignment, position or distance given)"
+      ],
+      "expected_observations": "expected/rb15-over.json",
+      "reference_pdf": {
+        "path": "samples/native/rb15-over.pdf",
+        "license": "Apache-2.0, except the embedded font subset (see embedded_fonts), which keeps its provider's terms",
+        "sha256": "2ca54df5d44a81d3c93d8cc0e61688cb7e4ed227c6b888447e0dc82ce7753bb6",
+        "size_bytes": 41326,
+        "method": "Saved by Ichitaro 2026 as PDF (SaveDocument format 23) from the saved JTD in a separate macro run of the generator; the JTD was closed without saving and its SHA-256 was unchanged",
+        "document_information": {
+          "Author": "user",
+          "CreationDate": "D:20261016221910+09'00'",
+          "ModDate": "D:20261016221910+09'00'",
+          "Producer": "一太郎"
+        },
+        "embedded_fonts": [
+          {
+            "postscript_name": "YuMincho-Regular",
+            "version": "Version 1.92",
+            "fsType": "0x0008",
+            "embedding": "TrueType subset (55 of 23398 glyphs with outlines)",
+            "terms": "Microsoft supplied font, © 2019 JIYUKOBO Ltd.; embedded by Ichitaro as a subset under its editable embedding permission (fsType 0x0008), as its licence text permits"
+          }
+        ],
+        "note": "Not an expected observation: no layout value of the PDF is asserted here."
+      }
     }
   ]
 }
