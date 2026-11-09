@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "input_id": "rb15-over",
+  "input_sha256": "6c671d88b9ba0f714e05ffd5dfb00e86da9eb5aa2f8f2a83829ae20e71935fc9",
+  "surface": "/DocumentText stream of the native JTD (CFB); byte ranges are relative to that stream",
+  "surface_stream": "/DocumentText",
+  "surface_sha256": "4f176356c6d961787afeff30a68ab377b0d94fc9c609caa75eeed1d57837dcee",
+  "producer": {
+    "implementation": "OpenJTD/rjtd: spans from rjtd text-map; text and raw read from the stream bytes and cross-checked with rjtd text-tokens; plain_text from rjtd cat",
+    "version": "3a3ddee66b21f4e3e088a13dbdfd196fdf511ad1"
+  },
+  "evidence": "native authoring by Ichitaro 2026; one variable of the recipe changed against rb15-fit-plain. The observations record rjtd behaviour on these bytes, not an independent agreement.",
+  "plain_text": "あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆ漢字よらりるれろわあいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめも",
+  "observations": [
+    {
+      "kind": "text",
+      "byte_start": 32,
+      "byte_end": 106,
+      "text": "あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆ"
+    },
+    {
+      "kind": "control",
+      "byte_start": 106,
+      "byte_end": 108,
+      "selector": "0x001c",
+      "raw": "001c"
+    },
+    {
+      "kind": "control",
+      "byte_start": 130,
+      "byte_end": 132,
+      "selector": "0x001c",
+      "raw": "001c"
+    },
+    {
+      "kind": "inline",
+      "byte_start": 142,
+      "byte_end": 150,
+      "selector": "0x0003",
+      "text": "漢字"
+    },
+    {
+      "kind": "control",
+      "byte_start": 158,
+      "byte_end": 160,
+      "selector": "0x001c",
+      "raw": "001c"
+    },
+    {
+      "kind": "skipped-inline",
+      "byte_start": 170,
+      "byte_end": 188,
+      "selector": "0x0082",
+      "text": "よみがなをなが"
+    },
+    {
+      "kind": "text",
+      "byte_start": 196,
+      "byte_end": 280,
+      "text": "よらりるれろわあいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめも"
+    }
+  ]
+}
